@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.API", "CultureScan.API.csproj", "{DA764BF9-EBA4-4FB2-A8CF-B76B10D21431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.Domain", "..\CultureScan.Domain\CultureScan.Domain.csproj", "{38861AF3-3B68-41DF-ACE5-5B6C7B3B9815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.Infra", "..\CultureScan.Infra\CultureScan.Infra.csproj", "{CEACC413-184C-48D5-AB25-A740CB179B14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.Service", "..\CultureScan.Service\CultureScan.Service.csproj", "{02BE6BBB-7635-47E5-AB8D-2655440DFC1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{DA764BF9-EBA4-4FB2-A8CF-B76B10D21431}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA764BF9-EBA4-4FB2-A8CF-B76B10D21431}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA764BF9-EBA4-4FB2-A8CF-B76B10D21431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38861AF3-3B68-41DF-ACE5-5B6C7B3B9815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38861AF3-3B68-41DF-ACE5-5B6C7B3B9815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38861AF3-3B68-41DF-ACE5-5B6C7B3B9815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38861AF3-3B68-41DF-ACE5-5B6C7B3B9815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEACC413-184C-48D5-AB25-A740CB179B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEACC413-184C-48D5-AB25-A740CB179B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEACC413-184C-48D5-AB25-A740CB179B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEACC413-184C-48D5-AB25-A740CB179B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02BE6BBB-7635-47E5-AB8D-2655440DFC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02BE6BBB-7635-47E5-AB8D-2655440DFC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02BE6BBB-7635-47E5-AB8D-2655440DFC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02BE6BBB-7635-47E5-AB8D-2655440DFC1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
