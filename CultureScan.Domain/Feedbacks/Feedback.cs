@@ -1,6 +1,8 @@
-﻿namespace CultureScan.Domain.Feedbacks
+﻿using CultureScan.Domain.Base;
+
+namespace CultureScan.Domain.Feedbacks
 {
-    class Feedback
+    class Feedback : Entity<Feedback>
     {
 
     }
