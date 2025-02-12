@@ -6,7 +6,7 @@ namespace CultureScan.API.Controllers
     public class FeedbackController : ControllerBase
     {
         [HttpGet]
-        public ActionResult<IEnumerable<PerguntaDto>> GetQuestions()
+        public ActionResult<IEnumerable<PerguntaDto>> ObterTodas()
             => Ok(Perguntas);
     }
 }
