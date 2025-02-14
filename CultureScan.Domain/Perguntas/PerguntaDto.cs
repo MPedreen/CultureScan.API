@@ -1,8 +1,5 @@
-﻿namespace CultureScan.Domain.Perguntas
+﻿namespace CultureScan.Domain.Perguntas;
+public class PerguntaDto
 {
-    public class PerguntaDto
-    {
-        public Guid Id { get; set; }
-        public string Pergunta { get; set; }
-    }
+    public string Pergunta { get; set; }
 }

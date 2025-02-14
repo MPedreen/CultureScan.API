@@ -1,6 +1,4 @@
-﻿using CultureScan.Domain.Base;
-
-namespace CultureScan.Domain.Perguntas
+﻿namespace CultureScan.Domain.Perguntas
 {
     public class Remuneracao : Pergunta
     {
