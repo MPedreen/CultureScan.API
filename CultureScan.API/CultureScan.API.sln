@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.API", "CultureS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.Domain", "..\CultureScan.Domain\CultureScan.Domain.csproj", "{38861AF3-3B68-41DF-ACE5-5B6C7B3B9815}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.Infra", "..\CultureScan.Infra\CultureScan.Infra.csproj", "{CEACC413-184C-48D5-AB25-A740CB179B14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.Infra.Repositories.Abstractions", "..\CultureScan.Infra\CultureScan.Infra.Repositories.Abstractions.csproj", "{CEACC413-184C-48D5-AB25-A740CB179B14}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.Service", "..\CultureScan.Service\CultureScan.Service.csproj", "{02BE6BBB-7635-47E5-AB8D-2655440DFC1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.Infra.Repositories", "..\CultureScan.Infra.Repositories\CultureScan.Infra.Repositories.csproj", "{C50C312B-6956-401F-A307-083362930ADE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{02BE6BBB-7635-47E5-AB8D-2655440DFC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02BE6BBB-7635-47E5-AB8D-2655440DFC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02BE6BBB-7635-47E5-AB8D-2655440DFC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50C312B-6956-401F-A307-083362930ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50C312B-6956-401F-A307-083362930ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50C312B-6956-401F-A307-083362930ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50C312B-6956-401F-A307-083362930ADE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B68D87E8-E703-4041-ABA6-B88DD343B4F4}
 	EndGlobalSection
 EndGlobal
