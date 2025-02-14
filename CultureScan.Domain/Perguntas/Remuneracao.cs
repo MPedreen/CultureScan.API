@@ -1,14 +1,8 @@
-﻿namespace CultureScan.Domain.Perguntas
-{
-    public class Remuneracao : Pergunta
-    {
-        public override string Categoria => "remuneracao";
+﻿using CultureScan.Domain.Base;
 
-        public override ICollection<PerguntaDto> ObterPerguntas() => new List<PerguntaDto>
-        {
-            new() { Pergunta = "Você está satisfeito com os benefícios oferecidos pela empresa?" },
-            new() { Pergunta = "Você considera sua remuneração justa em comparação com colaboradores de cargos similares na empresa?" },
-            new() { Pergunta = "Você acredita que sua remuneração está alinhada com o mercado para sua função?" },
-        };
-    }
+namespace CultureScan.Domain.Perguntas;
+
+public class Remuneracao : Entity<Remuneracao>
+{
+    public string Descricao { get; set; }
 }
