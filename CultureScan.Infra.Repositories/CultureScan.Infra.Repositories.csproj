@@ -12,6 +12,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\CultureScan.Domain\CultureScan.Domain.csproj" />
+		<ProjectReference Include="..\CultureScan.Infra\CultureScan.Infra.Repositories.Abstractions.csproj" />
 	</ItemGroup>
 
 </Project>
