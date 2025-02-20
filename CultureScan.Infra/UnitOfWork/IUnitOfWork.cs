@@ -1,6 +1,4 @@
-﻿using CultureScan.Domain.Base;
-using CultureScan.Infra.Repositories.Abstractions.Base;
-using Microsoft.EntityFrameworkCore.Storage;
+﻿using Microsoft.EntityFrameworkCore.Storage;
 
 namespace CultureScan.Infra.Repositories.Abstractions.UnitOfWork
 {
@@ -10,6 +8,5 @@ namespace CultureScan.Infra.Repositories.Abstractions.UnitOfWork
         Task<IDbContextTransaction> BeginTransactionAsync();
         Task CommitTransactionAsync(IDbContextTransaction transaction);
         Task RollBackTransactionAsync(IDbContextTransaction transaction);
-        IRepository<TEntity> GetRepository<TEntity>() where TEntity : Entity<TEntity>;
     }
 }
