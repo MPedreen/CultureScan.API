@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.API", "CultureScan.API.csproj", "{DA764BF9-EBA4-4FB2-A8CF-B76B10D21431}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{06DD99FF-BA59-48A2-AA58-E9E226E82BEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.Domain", "..\CultureScan.Domain\CultureScan.Domain.csproj", "{38861AF3-3B68-41DF-ACE5-5B6C7B3B9815}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.API", "src\CultureScan.API\CultureScan.API.csproj", "{DA764BF9-EBA4-4FB2-A8CF-B76B10D21431}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.Infra.Repositories.Abstractions", "..\CultureScan.Infra\CultureScan.Infra.Repositories.Abstractions.csproj", "{CEACC413-184C-48D5-AB25-A740CB179B14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.Domain", "src\CultureScan.Domain\CultureScan.Domain.csproj", "{38861AF3-3B68-41DF-ACE5-5B6C7B3B9815}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.Service", "..\CultureScan.Service\CultureScan.Service.csproj", "{02BE6BBB-7635-47E5-AB8D-2655440DFC1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.Infra.Repositories.Abstractions", "src\CultureScan.Infra\CultureScan.Infra.Repositories.Abstractions.csproj", "{CEACC413-184C-48D5-AB25-A740CB179B14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.Infra.Repositories", "..\CultureScan.Infra.Repositories\CultureScan.Infra.Repositories.csproj", "{C50C312B-6956-401F-A307-083362930ADE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.Service", "src\CultureScan.Service\CultureScan.Service.csproj", "{02BE6BBB-7635-47E5-AB8D-2655440DFC1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CultureScan.Infra.Repositories", "src\CultureScan.Infra.Repositories\CultureScan.Infra.Repositories.csproj", "{C50C312B-6956-401F-A307-083362930ADE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA764BF9-EBA4-4FB2-A8CF-B76B10D21431} = {06DD99FF-BA59-48A2-AA58-E9E226E82BEB}
+		{38861AF3-3B68-41DF-ACE5-5B6C7B3B9815} = {06DD99FF-BA59-48A2-AA58-E9E226E82BEB}
+		{CEACC413-184C-48D5-AB25-A740CB179B14} = {06DD99FF-BA59-48A2-AA58-E9E226E82BEB}
+		{02BE6BBB-7635-47E5-AB8D-2655440DFC1B} = {06DD99FF-BA59-48A2-AA58-E9E226E82BEB}
+		{C50C312B-6956-401F-A307-083362930ADE} = {06DD99FF-BA59-48A2-AA58-E9E226E82BEB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B68D87E8-E703-4041-ABA6-B88DD343B4F4}

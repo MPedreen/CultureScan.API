@@ -1,12 +1,13 @@
 ﻿using CultureScan.Domain.Perguntas;
 using CultureScan.Infra.Repositories.Abstractions.Perguntas;
 using CultureScan.Infra.Repositories.Context;
+using CultureScan.Infra.Repositories.Repositories.Base;
 
 namespace CultureScan.Infra.Repositories.Repositories.Perguntas;
 
-public class CorporativoRepository : AbstractRepository<Corporativo>, ICorporativoRepository
+public class CarreiraRepository : Repository<Carreira>, ICarreiraRepository
 {
-    public CorporativoRepository(CultureScanContext context) : base(context.Corporativos, context)
+    public CarreiraRepository(CultureScanContext context) : base(context.Carreiras, context)
     {
     }
 }
